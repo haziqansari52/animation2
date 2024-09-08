@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(img/6.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        nav{
+            border-bottom: 2px solid #f99d1b;
+            box-shadow: 2px 2px 5px #f99d1b;
+            height: 2cm;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        .contanier img{
+            width: 17%;
+            position: relative;
+            left: 25%;
+            }
+        .contanier2 ul li{
+            list-style: none;
+            margin-left: 20%;
+            color: #f99d1b;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .contanier2 ul{
+         display: flex;
+         position: relative;
+         left: -110%;
+        }
+        .contanier3 ul{
+            display: flex;
+            list-style: none;
+            position: relative;
+        right: 110%;
+        }
+        #fty{
+            padding-left: 0%;
+        }
+        .contanier3 ul li{
+            color: white;
+            cursor: pointer;
+        }
+        #liid{
+            border: 2px solid #f99d1b;
+            border-radius: 20%;
+            background-color: #f99d1b;
+            padding: .1cm;            
+            margin-left: 25%;
+        }
+        #liid:hover{
+            background-color: black;
+            border: 2px solid black;
+            box-shadow: 2px 2px 20px #f99d1b;
+        }
+        .libox{
+            padding: 3.5%;
+        }
+        .libox:hover{
+            border: 2px solid;
+            border-radius: 19%;
+            box-shadow: 2px 2px 20px #f99d1b;
+        }
+        .leave1 img{
+            width: 6.5%;
+            animation-name: hellow;
+            animation-duration: 5s;
+            position: absolute;
+            right: 87%;
+            bottom: 66%;
+            z-index: 1;
+        }
+        @keyframes hellow{
+            from{
+                bottom: 10%;
+                right: 50%;
+            }
+            to{
+                bottom: 66%;
+                right: 86%;
+            }
+        }
+        .heading1 h1{
+            color: #ffffff;
+            font-size: 300%;
+            position: absolute;
+            top: 30%;
+            left: 6.5%;
+            animation-name: anime;
+            animation-duration: 1.5s;
+        }
+        @keyframes anime {
+            from{
+                top: 30%;
+            left: -20%;
+        }
+        to{
+            left: 6.5%;
+        }
+        }
+        .paragraph1 p{
+            color: #ffffff;
+            font-family: sans-serif;
+            position: absolute;
+            top: 55%;
+            left: 6.5%;
+            animation-name: para;
+            animation-duration: 5s;
+            letter-spacing:.3vh;
+        }
+        @keyframes para {
+            from{
+                top: 55%;
+            left: -50%;
+        }
+        to{
+            left: 6.5%;
+        }
+        }
+        .button > button{
+            position: absolute;
+            top: 70%;
+            left: 6.5%;
+            animation-name: btn;
+            animation-duration: 8s;
+            background-color: #f99d1b;
+            border-top-left-radius:2vh ;
+            border-bottom-right-radius:2vh ;
+            color: #ffffff;
+            border: .3vh solid #ffffff;
+            height: 1cm;
+            width: 3.5cm;
+            padding: auto;
+            box-shadow: 0 0 5px #f99d1b;
+            cursor: pointer 
+        }
+        .button > button:hover{
+            box-shadow: 0 0 50px #f99d1b, 0 0 50px #f99d1b, 0 0 100px #f99d1b;
+            background: transparent;
+            transform: 0.3s;
+        }
+        @keyframes btn {
+            from{
+                top: 70%;
+            left: -50%;
+        }
+        to{
+            left: 6.5%;
+        }
+    }
+    .leave2 >img{
+        width: 15%;
+        position: relative;
+        top: 15vh;
+        left: 72vh;
+    }
+    .jar > img{
+        height: 60vh;
+        position: relative;
+        left: 130vh;
+        bottom: 12vh;
+    }
+    .bee1 img{
+        width: 40px;
+  position: absolute;
+  right: 11.5%;
+  bottom: 19cm;
+  z-index: 10;
+  animation-name: anime1;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+    }
+    @keyframes anime1 {
+        from{
+            bottom: 10%;
+            left: 50%;
+        }
+        to{
+            bottom: 91%;
+            left: 86%;
+
+        }
+    }
+    .bee2 img{
+        width: 76px;
+        z-index: 10;
+        animation-name: anime2;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  position: absolute;
+    }
+    @keyframes anime2 {
+        from{
+            bottom: 30%;
+            right: 20%;
+        }
+        to{
+            bottom: 90%;
+            right: 95%;
+
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="bee1">
+        <img src="img/1-removebg-preview.png" alt="">
+    </div>
+    <nav>
+        <div class="contanier">
+<img src="img/5-removebg-preview.png" alt="">
+        </div>
+        <div class="contanier2">
+               <ul>
+                <li class="libox">Home</li>
+                <li class="libox">About</li>
+                <li class="libox">Product</li>
+                <li class="libox">Booking</li>
+                <li class="libox">Contact</li>
+               </ul>   
+        </div>
+        <div class="contanier3">
+            <ul>
+                <div id="liid"><li><i class="ri-facebook-fill"></i></li></div>
+                <div id="liid"><li><i class="ri-twitter-fill"></i></li></div>
+                <div id="liid"><li><i class="ri-global-line"></i></li></div>
+                <div id="liid"><li><i class="ri-linkedin-fill"></i></li></div>
+            </ul>
+        </div>
+    </nav>
+    <div class="bee2">
+        <img src="img/7-removebg-preview.png" alt="">
+    </div>
+    <div class="leave1">
+        <img src="img/2-removebg-preview.png" alt="">
+    </div>
+    <div data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    data-aos-offset="0" class="heading1">
+        <h1>YOU CAN GET<br> PURE HONEY<br> HERE</h1>
+    </div>
+    <div data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    data-aos-offset="0" class="paragraph1">
+    <p>There are many variations of passages of Lorem<br> Ipsum available, but the majority have suffered<br> There are many variations of passages of Lorem <br>Ipsum available, but the majority have sufferey</p>
+    </div>
+    <div class="button">
+        <button data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">Booking</button>
+    </div>
+    <div class="leave2">
+        <img data-aos="zoom-in" src="img/3-removebg-preview.png" alt="">
+    </div>
+    <div class="jar">
+        <img data-aos="fade-left" src="img/4-removebg-preview.png" alt="">
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
